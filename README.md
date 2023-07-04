@@ -18,7 +18,11 @@ rac localhost:2545 cluster list
 ```sh
 rac localhost:2545 infobase summary list --cluster=<cluster-guid>
 ```
+### Получение информации о базе
 
+```sh
+rac localhost:2545 infobase info --cluster=<cluster-guid> --infobase=<infobase-guid>
+```
 ### Получение списка сеансов в базе
 
 ```sh
